@@ -45,5 +45,5 @@ last day of the module (Sunday), but can be submitted without penalty until
 I hope this helps to clarify things, but just reach out if you have any
 questions.
 
-<img src="../../../img/rags.jpg" width="100">
+<img src="../../../img/eagle.jpg" width="100">
 
