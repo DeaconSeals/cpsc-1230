@@ -21,6 +21,7 @@ Welcome to the course, and War Eagle!
 <img src="../../../img/eagle.jpg" width="100">
 
 > Mr. Deacon Seals
+
 > Instructor of Record  
 > Computer Science and Software Engineering  
 > Samuel Ginn College of Engineering  
