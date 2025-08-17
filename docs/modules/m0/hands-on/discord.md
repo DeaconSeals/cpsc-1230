@@ -8,7 +8,7 @@ of **community** in the class.
 To get started:
 
 1. Click the following link to join the course Discord server:
-    - [https://discord.gg/dXGHccsJM7](https://discord.gg/dXGHccsJM7)
+    - [https://discord.gg/K2rBh4ZMn3](https://discord.gg/K2rBh4ZMn3)
 1. Read the post in the `#rules` channel and be sure to observe these throughout the course.
 1. Explore the different channels and start engaging! 
 

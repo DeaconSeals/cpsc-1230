@@ -26,15 +26,15 @@ Each module 1-7 begins on a Monday and ends on the following Sunday.
 Here is the specific schedule for [this term](http://online.auburn.edu/term_calendar).
 
 Module | Dates                   | Duration 
------- | ----------------------- | --------   
-M0     | Mon 19 May - Sun 25 May | (7 days)  
-M1     | Mon 26 May - Sun 01 Jun | (7 days)  
-M2     | Mon 02 Jun - Sun 08 Jun | (7 days)  
-M3     | Mon 09 Jun - Sun 15 Jun | (7 days)  
-M4     | Mon 16 Jun - Sun 22 Jun | (7 days)  
-M5     | Mon 23 Jun - Sun 29 Jun | (7 days)  
-M6     | Mon 30 Jun - Sun 06 Jul | (7 days)  
-M7     | Mon 07 Jul - Wed 09 Jul | (3 days)  
+------ | ----------------------- | -------- 
+M0     | Mon 18 Aug - Sun 24 Aug | (7 days)
+M1     | Mon 25 Aug - Sun 31 Aug | (7 days)  
+M2     | Mon 01 Sep - Sun 07 Sep | (7 days)  
+M3     | Mon 08 Sep - Sun 14 Sep | (7 days)  
+M4     | Mon 15 Sep - Sun 21 Sep | (7 days)  
+M5     | Mon 22 Sep - Sun 28 Sep | (7 days)  
+M6     | Mon 29 Sep - Sun 05 Oct | (7 days)  
+M7     | Mon 06 Oct - Fri 10 Oct | (5 days)   
 
 * No holidays are observed in CSPC courses
 
