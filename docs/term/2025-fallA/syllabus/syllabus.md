@@ -3,7 +3,7 @@
 
 # CPSC 1230 Data Structures <br> Fall A 2025 Course Syllabus
 
-*Published: August 18, 2025*
+*Published: August 19, 2025*
 
 ---
 
@@ -165,7 +165,15 @@ Auburn, AL 36849
 
 ## Teaching Assistant
 
-### To Be Determined 
+### Sanjana Ruhani Tammim
+PhD Student
+Computer Science and Software Engineering
+3101 Shelby Center  
+Auburn University  
+345 West Magnolia Ave  
+Auburn, AL 36849 
+`szt0086@auburn.edu`
+**Office Hours:** MW 6:30pm-7:30pm via Zoom [https://auburn.zoom.us/j/5326143552](https://auburn.zoom.us/j/5326143552)
 
 
 ---
