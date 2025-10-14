@@ -42,6 +42,9 @@ CT Monday.
 last day of the module (Sunday), but can be submitted without penalty until
 11:59 PM CT on the last day of the course.
 
+Please note that Module 7 ends on the last day of the semester (set by the
+University) and the above may not apply, as this imposes a hard deadline.
+
 I hope this helps to clarify things, but just reach out if you have any
 questions.
 
