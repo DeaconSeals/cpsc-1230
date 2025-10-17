@@ -6,7 +6,10 @@ time that you access Vocareum (in Module 0), you will need to enter the
 **access code** provided to you by the AU All Access program via an email from
 `noreply@auburn.edu`. This email is sent the day before classes began for the
 full semester, and could be automatically  moved in to your Junk folder. You
-will only need the access code the first time you use Vocareum.
+will only need the access code the first time you use Vocareum. If you can't
+find the email with your code, please reach out to `books@auburn.edu` for help.
+If you enter your code and it doesn't work, please reach out to 
+`support@vocareum.com` for assistance.
 
 # Paying for Vocareum - AU All Access
 
