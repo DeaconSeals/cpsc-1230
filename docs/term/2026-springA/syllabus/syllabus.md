@@ -3,7 +3,7 @@
 
 # CPSC 1230 Data Structures <br> Spring A 2026 Course Syllabus
 
-*Published: October 20, 2025*
+*Published: January 06, 2026*
 
 ---
 
