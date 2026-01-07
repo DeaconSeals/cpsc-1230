@@ -1,10 +1,11 @@
 # Lab Test 3 and Final Exam Information
 
-The Final Exam and Lab Test 3 will be open from **12:01 AM CT Friday, December 5
-until 11:59 PM CT Friday, December 12**. Each has a 75-minute time limit, and
-you can can each in any 75-minute time period that begins no earlier than the
-opening time and ends no later than the closing time. You must complete each in
-one sitting, and you may not use any outside resources on either.
+The Final Exam and Lab Test 3 will be open from **12:01 AM CT Friday, February 20
+until 11:59 PM CT Wednesday, February 25** (the last day of the semester). Each
+has a 75-minute time limit, and you can can each in any 75-minute time period
+that begins no earlier than the opening time and ends no later than the closing
+time. You must complete each in one sitting, and you may not use any outside
+resources on either.
 
 The Final Exam will be delivered as a multiple-choice Canvas quiz, and covers the
 material in Modules 5, 6, 7. Lab Test 3 will be delivered as a

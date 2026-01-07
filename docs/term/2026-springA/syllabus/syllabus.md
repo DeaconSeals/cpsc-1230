@@ -173,7 +173,7 @@ Auburn University
 345 West Magnolia Ave  
 Auburn, AL 36849 
 `szt0086@auburn.edu`
-**Office Hours:** MW 6:30pm-7:30pm via Zoom [https://auburn.zoom.us/j/5326143552](https://auburn.zoom.us/j/5326143552)
+**Office Hours:** MW 4:30pm-5:30pm via Zoom [https://auburn.zoom.us/j/5326143552](https://auburn.zoom.us/j/5326143552)
 
 
 ---
