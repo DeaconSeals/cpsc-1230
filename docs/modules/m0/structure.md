@@ -5,43 +5,50 @@ This course is organized into eight modules numbered
 through seven. Module 0 is an introductory "getting started" module, while
 Module 1 through Module 7 are course-content modules. Rather than being
 organized strictly by content, these modules are
-[timeboxed](https://en.wikipedia.org/wiki/Timeboxing); that is, M1 - M7 are
-of fixed, equal durations with specific tasks to be completed within each. (If
-you're familiar with 
-[agile methods](https://en.wikipedia.org/wiki/Agile_software_development),
-you'll recognize similarities to
-[Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) sprints.)
+[timeboxed](https://en.wikipedia.org/wiki/Timeboxing); that is, M1 -- M7 are of
+fixed, roughly equal durations with specific tasks to be completed within each.
+(If you're familiar with [agile methods](https://en.wikipedia.org/wiki/Agile_software_development),
+you'll recognize similarities to [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) sprints.)
 
-Scheduling, planning, and knowing when things are due are easy with timeboxed
-modules. All graded items are scheduled to be due or delivered on module
-boundaries. Specifically: **Each graded item in the course is due on the last
-day of the module that contains it.** There are late days for assignments and
-slip days for exams, tests, and activities, but the actual due date for
-everything is the last day of each module.
+Scheduling, planning, and knowing when things are due are easily done with
+timeboxed modules. All graded items are scheduled to be due or delivered on
+module boundaries. Specifically:
 
-The timeboxed organization of the course is as follows. Module 0 begins on the
+- Each assignment is due on the last day of the module that contains it.
+- Each hands-on activity is due on the last day of the module that contains it.
+- Each exam is given immediately after the last day of the module that contains
+  it.
+- Each lab test is given immediately after the last day of the module that
+  contains it.
+
+<!-- The timeboxed organization of the course is as follows. Module 0 begins on the
 first day of classes for the term and ends on the first Sunday of the term.
-Each module 1-7 begins on a Monday and ends on the following Sunday. 
+Each module 1-7 begins on a Monday and ends on a Sunday. Here is the schedule
+for [this term](http://www.auburn.edu/main/auweb_calendar.php). -->
 
-Here is the specific schedule for [this term](http://online.auburn.edu/term_calendar).
+The timeboxed organization of the course is as follows. Here is the schedule
+for [this term](http://www.auburn.edu/main/auweb_calendar.php).
 
 Module | Dates                   | Duration 
------- | ----------------------- | -------- 
-M0     | Mon 18 Aug - Sun 24 Aug | (7 days)
-M1     | Mon 25 Aug - Sun 31 Aug | (7 days)  
-M2     | Mon 01 Sep - Sun 07 Sep | (7 days)  
-M3     | Mon 08 Sep - Sun 14 Sep | (7 days)  
-M4     | Mon 15 Sep - Sun 21 Sep | (7 days)  
-M5     | Mon 22 Sep - Sun 28 Sep | (7 days)  
-M6     | Mon 29 Sep - Sun 05 Oct | (7 days)  
-M7     | Mon 06 Oct - Fri 10 Oct | (5 days)   
+------ | ----------------------- | --------   
+M0     | Mon 18 Aug - Sun 24 Aug | (7 days)  
+M1     | Mon 25 Aug - Sun 07 Sep | (14 days)^  
+M2     | Mon 08 Sep - Sun 21 Sep | (14 days)  
+M3     | Mon 22 Sep - Sun 05 Oct | (14 days)  
+M4     | Mon 06 Oct - Sun 19 Oct | (14 days)^  
+M5     | Mon 20 Oct - Sun 02 Nov | (14 days)  
+M6     | Mon 03 Nov - Sun 16 Nov | (14 days)  
+M7     | Mon 17 Nov - Fri 05 Dec | (19 days)^   
 
-* No holidays are observed in CSPC courses
-
+^ *University No-Class Days:*  
+Mon 01 Sep, Labor Day
+Thu 09 Oct - Fri 10 Oct, Fall Break
+Mon 24 Nov - Fri 28 Nov, Thanksgiving Break
 
 # Module Structure
 
-Each of the seven content modules has the same structure with the following components.
+Each of the seven content modules has the same structure with the following
+components.
 
 - **Module Overview:** A brief introduction to the module content.
 - **Module At-A-Glance:** A more complete description of the module focus, tips
@@ -61,7 +68,7 @@ In addition to these common elements, Module 2, 4, and 7 have:
 
 - **Lab Test:** A timed programming test that requires you to implement software
   solutions for small, focused problems. While a programming assignment measures
-  your ability to solve a larger problem over a longer period, the lab tests are
+  your ability to solve a larger problem over a two-week period, a lab test is
   designed to measure your ability to solve small problems quickly. Doing this
   requires that you have internalized and mastered basic problem solving skills,
   basic programming skills, and appropriate language knowledge. A lab test is
@@ -84,7 +91,7 @@ Notice the iterative nature of the items in the *Work & Learn*
 this portion of the module sequentially, I strongly encourage you to take an
 [iterative](https://en.wikipedia.org/wiki/Iteration) approach. Read a portion of
 the notes, then watch the associated lecture videos, and then do the associated
-hands-on activities (if any). I also suggest that you start the assignment at
+hands-on activities (if any). I also suggest that you start the assignment near
 the beginning of the module and interleave your work on the assignment with the
 notes/lecture/hands-on cycle. Since most assignments are based on material
 covered in previous modules, this interleaving is easy to do.
