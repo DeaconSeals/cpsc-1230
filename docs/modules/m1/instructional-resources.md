@@ -5,16 +5,17 @@
 - [Correctness and Testing](notes/02-Correctness-and-Testing.pdf)
 - [Generality](notes/03-Generality.pdf)
 
-# Supplemental Readings
+# Related Python Documentation
 
-- Chapters 2, 4, 8, 11 of Bailey, D. A. (2007). [*Java structures: Data structures in
-  Java for the principled programmer ("Root 7"
-  Edition)*](http://dept.cs.williams.edu/~bailey/JavaStructures/Book_files/JavaStructures.pdf).
-  Williams, MA: Williams University.
-
-- Chapter 1 of Shaffer, C. A. (2013). [*A practical introduction to data
-  structures and algorithm analysis (Edition
-  3.2)*](http://people.cs.vt.edu/~shaffer/Book/JAVA3elatest.pdf). Upper Saddle
-  River, NJ: Prentice Hall.
+- [Numeric abstract base classes](https://docs.python.org/3/library/numbers.html#)
+- [unittest](https://docs.python.org/3/library/unittest.html)
+- [Built-in exceptions](https://docs.python.org/3/library/exceptions.html)
+- [Tutorial: Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
+- [Built-in functions](https://docs.python.org/3/library/functions.html)
+- [Tutorial: Sorting Basics](https://docs.python.org/3/howto/sorting.html)
+- [collections abstract base classes](https://docs.python.org/3/library/collections.abc.html#)
+- [Comparisons](https://docs.python.org/3/reference/expressions.html#comparisons)
+- [Standard operators](https://docs.python.org/3/library/operator.html)
+- [functools total_ordering](https://docs.python.org/3/library/functools.html#functools.total_ordering)
 
 
