@@ -1,9 +1,6 @@
 # Lecture Notes
 
-- [Problem Solving, Patterns, and
-  Search](notes/01-Problem-Solving-Patterns-Search.pdf)
-- [Correctness and Testing](notes/02-Correctness-and-Testing.pdf)
-- [Generality](notes/03-Generality.pdf)
+- Available in Canvas in Files>Seals-Lecture-Notes
 
 # Related Python Documentation
 
