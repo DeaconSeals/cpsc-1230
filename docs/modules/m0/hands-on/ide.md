@@ -49,12 +49,12 @@ languages, but this comes at the cost of control and awareness of underlying
 mechanisms that informed developers should be aware of.
 
 As a high-level language, Python comes "with batteries" and includes built-in
-utilities for [debugging](https://docs.python.org/3/library/pdb.html),[testing]
-(https://docs.python.org/3/library/unittest.html), and [provides informative
-error messages](https://docs.python.org/3/tutorial/errors.html) by default. You
-may manually install Python to your own computer ([you can find instructions
-here](https://www.python.org/about/gettingstarted/)), though many development
-environments may come bundled with Python.
+utilities for [debugging](https://docs.python.org/3/library/pdb.html),
+[testing](https://docs.python.org/3/library/unittest.html), and 
+[provides informative error messages](https://docs.python.org/3/tutorial/errors.html)
+by default. You may manually install Python to your own computer 
+([you can find instructions here](https://www.python.org/about/gettingstarted/)),
+though many development environments may come bundled with Python.
 
 ## Integrated Development Environment (IDE)
 
