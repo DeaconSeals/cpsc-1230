@@ -125,6 +125,19 @@ or equal to `k`. Examples:
 [8, 7, 6, 5, 4] | 0 | 4
 [8, 2, 8, 7, 3, 3, 4] | 5 | 7
 
+### The `search` method
+
+This methods searches for a target in the given sequence and returns the index
+of the first element that matches target, or `None` of the target does not
+exist within the sequence. Examples:
+
+`seq` | `target` | `floor(seq, target)`
+----- | ----- | ------------------------
+[2, 8, 7, 3, 4] | 2 | 0
+[5, 9, 1, 7, 3] | 1 | 2
+[8, 7, 6, 5, 4] | 9 | None
+[8, 2, 8, 7, 3, 3, 4] | 3 | 4
+
 
 ## Notes and Other Requirements
 
