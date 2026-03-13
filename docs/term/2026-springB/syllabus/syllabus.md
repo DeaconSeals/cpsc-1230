@@ -254,10 +254,10 @@ The course is organized into eight modules covering the topics below.
 
 - **Module 7**: Disjoint sets
 
-Module 0 starts on the first day of classes. Module 1 through Module 6 are each
+Module 0 starts on the first day of classes. Module 2 through Module 6 are each
 allocated one week, with each beginning on a Monday and ending on the following
-Sunday. Modules 0 and 7 may be less than a week, depending on the schedules the
-specific online term.
+Sunday. Modules 0, 1, and 7 may be less than a week, depending on the start and
+end dates for a specific online term.
 
 Below is the weekly schedule for [the current term](https://biggio.auburn.edu/programs/auburn-online-programs/undergraduate-online-programs-calendar).
 Note that course work continues through all days of the term, including those
