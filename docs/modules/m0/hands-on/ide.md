@@ -16,45 +16,45 @@ purposes of this course it will be important to choose a development that is a
 
 There is quite of bit of material here, so you can jump to a particular section through the following list.
 
-- [Java Development Kit](#java-development-kit-jdk)
+- [Python](#python)
 - [Integrated Development Environment](#integrated-development-environment-ide)
 	- [jGRASP](#jgrasp)
-	- [IntelliJ](#intellij)
-	- [Eclipse](#eclipse)
-    - [Visual Studio Code](#visual-studio-code)
+  - [Visual Studio Code](#visual-studio-code)
 	- [Online IDE](#online-ide-provided-by-vocareum)
 - [Editor + Command Line](#editor--command-line)
 	- [Text Editors](#text-editors)
 	- [Command Line](#command-line)
-	- [Compiler and Runtime Environment](#compiler-and-runtime-environment)
-- [JUnit](#testing-framework---junit)
+	- [Running Python](#running-python)
+- [unittest](#testing-framework---unittest)
 - [Checkstyle](#style-auditor---checkstyle)
 - [Git](#source-control---git)
 
 
-## Java Development Kit (JDK)
+## Python
 
-The Java Development Kit
-([JDK](https://en.wikipedia.org/wiki/Java_Development_Kit)) is a computing
-platform for developing and deploying software written in
-[Java](https://en.wikipedia.org/wiki/Java_(programming_language)). This course
-will use the [Java SE
-Platform](https://www.oracle.com/java/technologies/platform-glance.html),
-which includes the language, compiler, debugger, runtime environment, and
-extensive software libraries - everything you need to develop software in
-Java, except for an editor to create source code text files.
+[Python](https://en.wikipedia.org/wiki/Python_(programming_language)) is an
+interpreted programming language that will be the focus of this course. Unlike
+compiled programming languages, Python code is executed by an interpreter, and
+this allows for highly dynamic programming. The default Python interpreter (
+[CPython](https://en.wikipedia.org/wiki/CPython)) is written in C and Python.
+Because Python code is so dynamic, it tends to be less strict than other
+programming languages and is a popular language for beginners. However, the
+inherent flexibility of Python also allows developers to adopt bad practices
+that wouldn't be allowed in more strict programming languages (e.g., strict
+languages would generate errors or warnings). Python is also a language with a
+high level of abstraction, meaning there are often a lot of things
+happening "under the hood" that the developer may not be aware of. This high
+level of abstraction means that Python requires less code than low-level
+languages, but this comes at the cost of control and awareness of underlying
+mechanisms that informed developers should be aware of.
 
-To work on your own computer, you must download and install the Java SE JDK
-from 
-[Oracle](https://www.oracle.com/technetwork/java/javase/overview/index.html)
-or the [essentially identical](https://blogs.oracle.com/java-platform-group/oracle-jdk-releases-for-java-11-and-later)
-open source [OpenJDK](https://openjdk.java.net/). The latest release of the JDK is
-recommended, although version 7 or above will be sufficient for this course.
-
-Here are direct links to the latest Java SE JDK downloads from both Oracle and OpenJDK.
-
-- [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
-- [https://jdk.java.net/14/](https://jdk.java.net/14/)
+As a high-level language, Python comes "with batteries" and includes built-in
+utilities for [debugging](https://docs.python.org/3/library/pdb.html),[testing]
+(https://docs.python.org/3/library/unittest.html), and [provides informative
+error messages](https://docs.python.org/3/tutorial/errors.html) by default. You
+may manually install Python to your own computer ([you can find instructions
+here](https://www.python.org/about/gettingstarted/)), though many development
+environments may come bundled with Python.
 
 ## Integrated Development Environment (IDE)
 
@@ -64,7 +64,7 @@ software application that provides access within a single interface to a
 variety of tools such as an editor, compiler, debugger, runtime environment,
 and so on.
 
-While there are many IDEs available for Java, here are some that I can recommend.
+While there are many IDEs available for Python, here are some that I can recommend.
 
 ### jGRASP
 
@@ -73,31 +73,8 @@ in hundreds of schools across the world. It is designed with education in mind,
 and strives to be simple but complete. [Object
 viewers](https://jgrasp.org/viewers.html) are unique to jGRASP and offer dynamic
 visualization of program execution during debug mode. jGRASP is freely available
-from [https://jgrasp.org/](https://jgrasp.org/).
-
-### IntelliJ
-
-[IntelliJ IDEA](https://www.jetbrains.com/idea/) ("IntelliJ") is a modern,
-professional IDE and is the basis for Google's Android Studio. It is one of the "big
-three" IDEs for Java along with Eclipse and NetBeans. As fitting a professional-grade
-tool, IntelliJ is large, complex, and comes with a learning curve, but it is a
-powerful tool. 
-The [Community Edition](https://www.jetbrains.org/pages/viewpage.action?pageId=983211)
-of IntelliJ is freely available 
-from [https://www.jetbrains.com/idea/download](https://www.jetbrains.com/idea/download).
-
-A [jGRASP plugin for IntelliJ](https://jgrasp.org/ij_plugin.html) is available
-to provide the object viewers from within the IntelliJ environment. 
-
-### Eclipse
-
-[Eclipse](https://www.eclipse.org/) is a large, complex, professional IDE that
-offers a lot of power and flexibility but, of course, comes with a steep learning 
-curve. Eclipse is freely available 
-from [https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/).
-
-A [jGRASP plugin for Eclipse](https://jgrasp.org/eclipse_plugin.html) is available
-to provide the object viewers from within the Eclipse environment. 
+from [https://jgrasp.org/](https://jgrasp.org/). Support for Python was recently
+added to jGRASP and can be found in the beta version.
 
 ### Visual Studio Code
 
@@ -130,8 +107,8 @@ environment.
 - Being able to work at the command line with fundamental programming tools is
   important.
 
-The minimum tools necessary to work in this mode are an editor, a Java
-compiler, a Java runtime environment, and a terminal/shell/command-line
+The minimum tools necessary to work in this mode are an editor, a Python
+installation (often included by default), and a terminal/shell/command-line
 window.
 
 ### Text Editors
@@ -211,35 +188,31 @@ Here are a few good resources for learning to work with the command line.
 - [https://fabiensanglard.net/bash/](https://fabiensanglard.net/bash/)
 - [https://www.youtube.com/playlist?list=PLzV58Zm8FuBKtREubmlbKHnPI-_LZlkzH](https://www.youtube.com/playlist?list=PLzV58Zm8FuBKtREubmlbKHnPI-_LZlkzH)
 
-And finally, [makefiles](https://en.wikipedia.org/wiki/Makefile) are very
-helpful if you work at the command line. Here's a good tutorial:
-[https://www.gnu.org/software/make/manual/html_node/Introduction.html](https://www.gnu.org/software/make/manual/html_node/Introduction.html).
 
-### Compiler and Runtime Environment
+### Running Python
 
-The JDK includes commands to invoke the Java compiler and the Java runtime
-environment (JRE) from the command line. The compiler can be invoked with the
-`javac` command and the JRE can be invoked with the `java` command.
-
-Once the JDK is installed, you can compile and run the Java source code file
-`WarEagle.java` from the command line as follows. (The `$` character represents
-the command-line prompt.)
+Many commend-line environments come with Python pre-installed, though there may
+be minor discrepancies to how to invoke a Python program, depending on how the
+language is installed in your environment. Typically, you'd invoke Python with
+either the `python` or `python3` command. If we wanted to run a Python program
+written in the file `WarEagle.py`, we may use one of the commands as follows.
+(The `$` character represents the command-line prompt.)
 
 ```bash
-$ javac WarEagle.java
-$ java WarEagle
+$ python WarEagle.py
+```
+OR
+```bash
+$ python3 WarEagle.py
 ```
 
-## Testing Framework - JUnit
+## Testing Framework - unittest
 
-[JUnit](https://en.wikipedia.org/wiki/JUnit) is a framework for [unit
-testing](https://en.wikipedia.org/wiki/Unit_testing) software written in Java.
-Writing good test cases is an important skill to develop, and you are strongly
-encouraged to write JUnit test cases for all your assignments.
-
-You can learn more about JUnit and install version 4.12 from [this
-link](https://junit.org/junit4/).
-
+[unittest](https://docs.python.org/3/library/unittest.html) is a module for
+[unit testing](https://en.wikipedia.org/wiki/Unit_testing) software written in
+Python that comes built-in to the language. Writing good test cases is an
+important skill to develop, and you are strongly encouraged to write test cases
+for all your assignments.
 
 ## Source Control - Git
 

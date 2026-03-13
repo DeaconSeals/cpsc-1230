@@ -28,14 +28,14 @@ Here is the specific schedule for [this term](http://online.auburn.edu/term_cale
 
 Module | Dates                   | Duration 
 ------ | ----------------------- | -------- 
-M0     | Wed 07 Jan - Sun 11 Jan | (5 days)
-M1     | Mon 12 Jan - Sun 18 Jan | (7 days)  
-M2     | Mon 19 Jan - Sun 25 Jan | (7 days)  
-M3     | Mon 26 Jan - Sun 01 Feb | (7 days)  
-M4     | Mon 02 Feb - Sun 08 Feb | (7 days)  
-M5     | Mon 09 Feb - Sun 15 Feb | (7 days)  
-M6     | Mon 16 Feb - Sun 22 Feb | (7 days)  
-M7     | Mon 23 Feb - Wed 25 Feb | (3 days)       
+M0     | Mon 16 Mar - Tue 17 Mar | (2 days)
+M1     | Wed 18 Mar - Sun 22 Mar | (5 days)  
+M2     | Mon 23 Mar - Sun 29 Mar | (7 days)  
+M3     | Mon 30 Mar - Sun 05 Apr | (7 days)  
+M4     | Mon 06 Apr - Sun 12 Apr | (7 days)  
+M5     | Mon 13 Apr - Sun 19 Apr | (7 days)  
+M6     | Mon 20 Apr - Sun 26 Apr | (7 days)  
+M7     | Mon 27 Apr - Fri 01 May | (5 days)        
 
 * No holidays are observed in CSPC courses
 
@@ -53,13 +53,13 @@ Each of the seven content modules has the same structure with the following comp
   notes.
 - **Hands-On Activities:** One or more activities designed to help you put into
   practice some of the topics being presented in the notes.
-- **Programming Assignment:** An assignment that requires you to implement a
-  software solution to a given problem. The assignment relates to the content of
-  the current and/or previous modules.
 - **Summary:** A brief recap of what was covered in the module.
 
 In addition to these common elements, Module 2, 4, and 7 have:
 
+- **Programming Assignment:** An assignment that requires you to implement a
+  software solution to a given problem. The assignment relates to the content of
+  the current and/or previous modules.
 - **Lab Test:** A timed programming test that requires you to implement software
   solutions for small, focused problems. While a programming assignment measures
   your ability to solve a larger problem over a longer period, the lab tests are
