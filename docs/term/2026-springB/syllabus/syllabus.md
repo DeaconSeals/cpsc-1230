@@ -273,7 +273,7 @@ Week  | Dates          | Module | Graded Items
 5     | Mon 06 Apr - Sun 12 Apr | M4     | H A E T 
 6     | Mon 13 Apr - Sun 19 Apr | M5     | H
 7     | Mon 20 Apr - Sun 26 Apr | M6     | H
-8     | Mon 27 Apr - Wed 01 May | M7     | H A E T
+8     | Mon 27 Apr - Fri 01 May | M7     | H A E T
 
 
 ---
