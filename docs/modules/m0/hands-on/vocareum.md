@@ -22,7 +22,7 @@ as you will for hands-on activities, assignments, and lab tests in this course.
 When you click on the 'Open in new tab' button in Canvas, a separate browser tab
 will open with this activity loaded in your Vocareum account. 
 
-## User Interface 
+## Overview 
 
 The Vocareum user interface for this activity is divided into three columns. The
 left column is a **file browser**, the right column is an **information
@@ -47,7 +47,7 @@ panel with **action buttons**.
   readme can be explicitly loaded by clicking the *Readme* action button. If
   there is no readme file and no grade report, the Information Display will be
   collapsed and not visible.
-- **Program Editor**: Provides a syntax-aware editor for Java. Clicking on a
+- **Program Editor**: Provides a syntax-aware editor for Python. Clicking on a
   file in the file browser loads the file in the program editor.
 - **Terminal/Console**: Provides a command line interface to a Linux virtual
   machine on which all your work is being done. Since this is a full console
@@ -81,7 +81,7 @@ panel with **action buttons**.
 When first loading this activity in Vocareum, the interface should look
 essentially like the following:
 
-![](img/vocareum-ui.png)
+![](img/vocareum-ui-py.png)
 
 If your interface looks significantly different, please alert a course staff
 member.
@@ -94,9 +94,9 @@ programming activities and having them graded by Vocareum. The specific task for
 which a grade will be assigned is modifying the `WarEagle` class so that it
 passes all test cases and earns full points.
 
-1. The source code file `WarEagle.java` should be already loaded in the editor,
+1. The source code file `WarEagle.py` should be already loaded in the editor,
    but if it is not, open the `work` folder in the file browser and click on the
-   `WarEagle.java` file.
+   `WarEagle.py` file.
 2. Click on **Submit**. You will be prompted to confirm your submission. Before
    doing so, recall that making a submission will cause the Information Display
    to show the grading report, and these instructions will no longer be visible.
@@ -130,6 +130,5 @@ mistakes, including syntax errors, so that you get comfortable with the way that
 submissions to Vocareum work and with the feedback that you receive after each
 submission. Remember that you can use the **Reset** action button to revert back
 to the starter code; this might make repeated practice easier.
-
 
 

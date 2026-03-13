@@ -2,56 +2,41 @@
 
 ## Problem Overview
 
-This assignment focuses on implementing the methods of a class much like
-`java.util.Collections`. The `Selector.java` file defines a class with static
-methods that implement polymorphic algorithms that operate on and/or return
-objects that implement the `Collection` interface. Each method of `Selector`
-is clearly specified, is independent of the other methods in the class, and is
-designed to provide relatively simple functionality. So, this is a great
-context in which to practice systematic, disciplined development and
-test-based verification.
+This assignment focuses on implementing methods to operate on data structures that implement the `Sequence` abstract base class. Each method is clearly specified, is independent of the other methods, and is designed to provide relatively simple functionality. So, this is a great context in which to practice systematic, disciplined development and test-based verification.
 
-## The `Selector` class
+## The `SequenceSelector` methods
 
-You must correctly implement all the method bodies of the provided `Selector`
-class. Your implementation must adhere **exactly** to the API of the
-`Selector` class, as described in the provided source code comments and as
-described below.
+You must correctly implement all the method bodies of the provided `Selector.py`file. Your implementation must adhere **exactly** to the API of the methods, as described in the provided source code comments and as described below.
 
-```java
-public class Selector {
-    public static <T> T min(Collection<T> c, Comparator<T> comp)
-    public static <T> T max(Collection<T> c, Comparator<T> comp)
-    public static <T> T kmin(Collection<T> c, int k, Comparator<T> comp)
-    public static <T> T kmax(Collection<T> c, int k, Comparator<T> comp)
-    public static <T> Collection<T> range(Collection<T> c, T low, T high,
-                                          Comparator<T> comp)
-    public static <T> T ceiling(Collection<T> c, T key, Comparator<T> comp) 
-    public static <T> T floor(Collection<T> c, T key, Comparator<T> comp)
-}
+```python
+class SequenceSelector:
+  def min(seq, key = None)
+  def max(seq, key = None)
+  def kmin(seq, k, key = None)
+  def kmax(seq, k, key = None)
+  def range(seq, low, high, key = None)
+  def ceiling(seq, k, key = None) 
+  def floor(seq, k, key = None)
+  def search(seq, target, key = None)
 ```
 
-**Refer to the `Selector.java` source code file for the complete
-specification of each method's required behavior.** For an overview of each method, brief descriptions and example calls are provided below. While the generic type variable makes these methods independent of any specific data type, in each example the type variable `T` is bound to `Integer`. The definitions of "less than", "greater than," and "equal to" for values of type `T` are defined by the `Comparator` parameter `comp`. This parameter in each of the examples is the `ascendingInteger` object defined below.
+**Refer to the `Selector.py` source code file for the complete specification of each method's required behavior.** For an overview of each method, brief descriptions and example calls are provided below. While these methods should independent of any specific data type, in each example the variables are integers. The definitions of "less than", "greater than," and "equal to" for values are defined by either the data in the sequence or the member variable selected by the key (which is optional for the client, as demonstrated by the example methods calls below). The following are examples of keys that may be passed in by the client.
 
 
-```java
-    /**
-     * Defines a total order on integers as ascending natural order.
-     */
-    static Comparator<Integer> ascendingInteger =
-        new Comparator<Integer>() {
-            public int compare(Integer i1, Integer i2) {
-                return i1.compareTo(i2);
-            }
-        };
+```python
+def key_function(value):
+  '''Return the x member variable of the input value'''
+  return value.x
+
+# Return the x member variable of the input value (but using a lambda)
+lambda_key_variable = lambda value: value.x
 ```
 
 ### The `min` method
 
-This method selects the minimum value from a given collection. Examples:
+This method selects the minimum value from a given sequence. Examples:
 
-`coll` | `min(coll, comp)`
+`seq` | `min(seq)`
 ----- | -----------------
 [2, 8, 7, 3, 4] | 2
 [5, 9, 1, 7, 3] | 1
@@ -61,9 +46,9 @@ This method selects the minimum value from a given collection. Examples:
 
 ### The `max` method
 
-This method selects the maximum value from a given collection. Examples:
+This method selects the maximum value from a given sequence. Examples:
 
-`coll` | `max(coll, comp)`
+`seq` | `max(seq)`
 ----- | -----------------
 [2, 8, 7, 3, 4] | 8
 [5, 9, 1, 7, 3] | 9
@@ -73,13 +58,13 @@ This method selects the maximum value from a given collection. Examples:
 
 ### The `kmin` method
 
-This method selects the k-th minimum (smallest) value from a given collection.
+This method selects the k-th minimum (smallest) value from a given sequence.
 A value is the k-th minimum if and only if there are exactly k - 1 distinct
-values strictly less than it in the collection. Note that `kmin(coll, 1, comp)
-== min(coll, comp)` and `kmin(coll, coll.size(), comp) == max(coll, comp)`.
+values strictly less than it in the sequence. Note that `kmin(seq, 1)
+== min(seq)` and `kmin(seq, len(seq)) == max(seq)`.
 Examples:
 
-`coll` | `k` | `kmin(coll, k, comp)`
+`seq` | `k` | `kmin(seq, k)`
 ----- | --- | ---------------------
 [2, 8, 7, 3, 4] | 1 | 2
 [5, 9, 1, 7, 3] | 3 | 5
@@ -89,13 +74,12 @@ Examples:
 
 ### The `kmax` method
 
-This method selects the k-th maximum (largest) value from a given collection.
+This method selects the k-th maximum (largest) value from a given sequence.
 A value is the k-th maximum if and only if there are exactly k - 1 distinct
-values strictly greater than it in the collection. Note that `kmax(coll, 1,
-comp) == max(coll, comp)` and `kmax(coll, coll.size()) == min(coll, comp)`.
+values strictly greater than it in the sequence. Note that `kmax(seq, 1) == max(seq)` and `kmax(seq, len(seq)) == min(seq)`.
 Examples:
 
-`coll` | `k` | `kmax(coll, k, comp)`
+`seq` | `k` | `kmax(seq, k)`
 ----- | --- | --------------------
 [2, 8, 7, 3, 4] | 1 | 8
 [5, 9, 1, 7, 3] | 3 | 5
@@ -105,10 +89,10 @@ Examples:
 
 ### The `range` method
 
-This method selects all values from a given collection that are greater than or
+This method selects all values from a given sequence that are greater than or
 equal to `low` and less than or equal to `high`.
 
-`coll` | `low` | `high` | `range(coll, low, high, comp)`
+`seq` | `low` | `high` | `range(seq, low, high)`
 ----- | ----- | ------ | ------------------------------ 
 [2, 8, 7, 3, 4] | 1 | 5 | [2, 3, 4]
 [5, 9, 1, 7, 3] | 3 | 5 | [5, 3]
@@ -118,10 +102,10 @@ equal to `low` and less than or equal to `high`.
 
 ### The `floor` method
 
-This method selects from a given collection the largest value that is less than or
-equal to `key`. Examples:
+This method selects from a given sequence the largest value that is less than or
+equal to `k`. Examples:
 
-`coll` | `key` | `floor(coll, key, comp)`
+`seq` | `k` | `floor(seq, k)`
 ----- | ----- | ------------------------
 [2, 8, 7, 3, 4] | 6 | 4
 [5, 9, 1, 7, 3] | 1 | 1
@@ -131,10 +115,10 @@ equal to `key`. Examples:
 
 ### The `ceiling` method
 
-This method selects from a given collection the smallest value that is greater than
-or equal to `key`. Examples:
+This method selects from a given sequence the smallest value that is greater than
+or equal to `k`. Examples:
 
-`coll` | `key` | `ceiling(coll, key, comp)`
+`seq` | `k` | `ceiling(seq, k)`
 ----- | ----- | --------------------------
 [2, 8, 7, 3, 4] | 1 | 2
 [5, 9, 1, 7, 3] | 7 | 7
@@ -144,43 +128,19 @@ or equal to `key`. Examples:
 
 ## Notes and Other Requirements
 
-- The `Selector.java` source code file is provided in the `startercode` folder
-  in Vocareum. You can download `Selector.java` from Vocareum and work on your
-  local machine.
+- The `Selector.py` source code file is provided in the `startercode` folder in Vocareum. You can download `Selector.py` from Vocareum and work on your local machine.
 
-- The comments provided in `Selector.java` describe the required behavior of
-  each method.
+- The comments provided in `Selector.py` describe the required behavior of each method.
 
-- The constructor of the `Selector` class has been written for you and it must
-  not be changed in any way.
+- All parameters to your methods must remain unmodified.
 
-- You may add any number of private methods that you like, but you may not add
-  any public method or constructor, nor may you change the signature of any
-  public method or constructor.
+- You may add any number of additional helper methods that you like, but you may not change the signature of any pre-defined methods.
 
-- You must not add any fields, either public or private, to the `Selector`
-  class.
+- You may not use sorting in any method, except for `kmin` and `kmax`.
 
-- You must not add, remove, or change in any way the import statements that are
-  already provided. You may not use fully-qualified names to circumvent this
-  restriction, except in the instance noted below. 
+- You do not have to use sorting in `kmin` and `kmax`, but doing so makes the solution more straightforward. If you choose to use sorting in these two methods, you must do so by calling the built-in `sorted()` function and you are allowed at most two calls to this function - at most one in `kmin` and at most one in `kmax`. Be sure not to use the `list.sort()` method, as this is only defined for the list class (and not other classes that implement the Sequence abstract base class).
 
-- You may not use any of the `toArrray()` methods in the `Collection` interface
-  and then solve the problem in terms of arrays. More generally, you may not
-  convert the `Collection` parameter to any other type (with the exception
-  necessary for sorting in `kmin` and `kmax` mentioned below). The penalty for
-  violating this constraint will be a deduction of up to 50% of the total points
-  available on the assignment. 
+- For all methods where comparison is performed against an input parameter (range, ceiling, floor, search), you should assume that the input parameters are directly comparable with the value extracted by the key function from each sequence element. For example, say we called search on a list of books (with values for title, author, and pages) and the key parameter specifies that comparisons should be done on the basis of title. You should expect that the target parameter provided by the client is just the title, rather than an entire book object you would need to pass through the key function.
 
-- You may not use sorting in any method, except for `kmin` and `kmax`. The
-  penalty for violating this constraint will be a deduction of points up to 50%
-  of the total points available on the assignment.
-
-- You do not have to use sorting in `kmin` and `kmax`, but doing so makes the
-  solution more straightforward. If you choose to use sorting in these two
-  methods, you must do so by calling the `java.util.Collections.sort(List,
-  Comparator)` method. You must use the fully-qualified name (no importing
-  `Collections`) and you are allowed at most two calls to this method - at most
-  one in `kmin` and at most one in `kmax`. You are also allowed to use a call to
-  `java.util.Collections.reverse(List)` in `kmax`.
-
+## Acknowledgements
+This assignment is based on a similar Java assignment developed by Dr. Dean Hendrix.
