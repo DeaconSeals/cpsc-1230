@@ -149,11 +149,19 @@ exist within the sequence. Examples:
 
 - You may add any number of additional helper methods that you like, but you may not change the signature of any pre-defined methods.
 
+- If you want to run the tests you wrote at the bottom of `Selector.py` in Vocareum, you can do so by typing the command `python Selector.py` into the terminal at the bottom. 
+
+- You can type the command `python` into Vocareum's terminal to get an interactive shell that will immediately run individual lines of Python code you type (you can end this interactive shell with `ctrl+d`). This is a great way to quickly test how/if individual operations of Python work as you expect.
+
 - You may not use sorting in any method, except for `kmin` and `kmax`.
 
 - You do not have to use sorting in `kmin` and `kmax`, but doing so makes the solution more straightforward. If you choose to use sorting in these two methods, you must do so by calling the built-in `sorted()` function and you are allowed at most two calls to this function - at most one in `kmin` and at most one in `kmax`. Be sure not to use the `list.sort()` method, as this is only defined for the list class (and not other classes that implement the Sequence abstract base class).
 
+- When Python's built-in `sorted()` function is called on a sequence (or iterable) that contains duplicate values, it keeps them in their original order (even when you call `sorted(seq, reverse=True)` to sort in descending order). However, this can lead to some interesting side effects when sorting based on a key value, as elements may not be compared in their entirety.
+
 - For all methods where comparison is performed against an input parameter (range, ceiling, floor, search), you should assume that the input parameters are directly comparable with the value extracted by the key function from each sequence element. For example, say we called search on a list of books (with values for title, author, and pages) and the key parameter specifies that comparisons should be done on the basis of title. You should expect that the target parameter provided by the client is just the title, rather than an entire book object you would need to pass through the key function.
+
+- Checking the key parameter passed in by the client is outside the scope of this assignment. In other words, if the client passes in something erroneous as a key (e.g., a non-callable object or a function that produces an error when applied on the data) you should allow the natural errors that may occur without intervention. This is fairly standard practice, as catching these exceptions in your code may actually make it more difficult to use, when compared to allowing the user to see the exceptions that get raised, as Python's built in error messages are typically helpful on their own.
 
 ## Acknowledgements
 This assignment is based on a similar Java assignment developed by Dr. Dean Hendrix.
