@@ -131,7 +131,7 @@ This methods searches for a target in the given sequence and returns the index
 of the first element that matches target, or `None` of the target does not
 exist within the sequence. Examples:
 
-`seq` | `target` | `floor(seq, target)`
+`seq` | `target` | `search(seq, target)`
 ----- | ----- | ------------------------
 [2, 8, 7, 3, 4] | 2 | 0
 [5, 9, 1, 7, 3] | 1 | 2
