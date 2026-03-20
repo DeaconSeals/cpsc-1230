@@ -22,16 +22,16 @@ later. Ask questions, engage with the class, and be proactive.
 
 # Module Objectives
 
-- Apply empirical techniques to assess the time complexity of a Java method.
+- Apply empirical techniques to assess the time complexity of a Python function.
 - Apply analytical techniques to assess the time complexity of an algorithm
-  and/or Java method.
+  and/or Python function.
 - Express the time complexity of an algorithm using Big O notation.
 - Create experiments, generate data, and draw conclusions regarding the
-  efficiency of Java programs from the analysis of the results of the
+  efficiency of Python programs from the analysis of the results of the
   experiments.
 - Evaluate the suitability of a software component with respect to time
   complexity.
-- Create Java programs that solve a problem while meeting specific time
+- Create Python programs that solve a problem while meeting specific time
   complexity requirements.
 - Identify sorting algorithms given the time complexity and/or algorithmic
   profile.
