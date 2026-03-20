@@ -3,9 +3,7 @@
 
 This activity focuses on empirically measuring a program's running time.
 Before attempting this activity, you should complete the Efficiency note set
-and the *Empirical Analysis* section of the Algorithm Analysis note set, as
-well as the associated videos available in the 
-[instructional resources](../../instructional-resources.md) 
+and the *Empirical Analysis* section of the Algorithm Analysis note set.
 
 After completing this activity you should
 
@@ -13,51 +11,18 @@ After completing this activity you should
 - Be able to describe factors that affect running time.
 - Be able to to characterize a program's time complexity.
 
-You will need the following source code files to complete this activity.
-
-- [EarlyExit.java](src/EarlyExit.java)
-- [TimingCode.java](src/TimingCode.java)
-- [TimeComplexity.java](src/TimeComplexity.java)
-
 
 ## Measuring running time
 
-Java provides the following two methods for measuring time:
-`System.nanoTime()` and `System.currentTimeMillis()`. We could use either for
-our purposes in this lab, but we will use `nanoTime()` since it is expressly
-designed to measure *elapsed time*. Note that the `currentTimeMillis()` method
-is designed to measure "wall-clock" time. For more information on these
-methods, see the following links.
+Python provides the [`time` module](https://docs.python.org/3/library/time.html) for measuring time and handling time-based data. For measuring Python code, the most commonly used function is [`time.time()`](https://docs.python.org/3/library/time.html#time.time), which returns a floating point number representing the number of seconds since January 1, 1970, 00:00:00 (UTC)---also known as [Unix time](https://en.wikipedia.org/wiki/Unix_time).
 
-- [`System.nanoTime()`](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/System.html#nanoTime())
-- [`System.currentTimeMillis()`](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/System.html#currentTimeMillis())
+To measure how long function `foo` takes to run we could do the following:
 
-To measure how long method `foo` takes to run we could do the following:
-
-```java
-long start = System.nanoTime();
-foo();
-long elapsedTime = System.nanoTime() - start;
+```python
+start = time.time()
+foo()
+elapsed_time = time.time() - start
 ```
-
-The value in `elapsedTime` represents the number of nanoseconds that method
-`foo` required, according to the JVM's internal time source. (Of course
-`nanoTime` requires some time itself and the subtraction takes time, so
-`elapsedTime` isn't *strictly* the running time of `foo`.) For a more useful
-display value we could provide this time estimate in seconds.
-
-```java
-double time = elapsedTime / 1_000_000_000d;
-System.out.printf("%4.3f", time);
-```
-
-`TimingCode.java` illustrates timing multiple runs of method `foo` and using an average value as its running time in seconds.
-
-1. Open `TimingCode.java` and compile it.
-
-1. Run the program and observe the output.
-
-1. Interact with this code and make sure that you understand everything that it does and how you might apply it for your own purposes.
 
 
 ## Improving performance: avoid unnecessary work
@@ -67,50 +32,34 @@ this can mean being more careful in how the code is written; for example,
 making sure a search algorithm terminates as soon as the result of the search
 is known.
 
-The two search methods below illustrate this idea.
+The two contain functions below illustrate this idea.
 
-```java
-/** A linear search that exits only after scanning the entire list. */
-private static <T> boolean searchA(List<T> list, T target) {
-    boolean found = false;
-    for (T element : list) {
-        if (element.equals(target)) {
-            found = true;
-        }
-    }
-    return found;
-}
+```python
+def contains_a(a, target):
+'''A linear search that exits only after scanning the entire list.'''
+   found = False
+   for value in a:
+      if value == target:
+         found = True
+   return found
 
-/** A linear search that exits as soon as the result of the search is known. */
-private static <T> boolean searchB(List<T> list, T target) {
-    for (T element : list) {
-        if (element.equals(target)) {
-            return true;
-        }
-    }
-    return false;
-}
+def contains_b(a, target):
+'''A linear search that exits as soon as the result of the search is known.'''
+   for value in a:
+      if value == target:
+         return True
+   return False
 ```
 
-On average, we would expect `searchB` to perform better than `searchA` since
-it exits the loop and returns `true` as soon as `target` is found. This is an
+On average, we would expect `contains_b` to perform better than `contains_a` since
+it exits the loop and returns `True` as soon as `target` is found. This is an
 example of efficiency improvements we should always make, mainly because the
 code is just ... *better*. That's a subjective judgment, but I think most of
-us would agree that `searchB` is more efficient *and* more appealing.
+us would agree that `contains_b` is more efficient *and* more appealing.
 
-Note that the worst-case performance of both `searchA` and `searchB` is the
+Note that the worst-case performance of both `contains_a` and `contains_b` is the
 same - both will examine every element of the list before terminating. But on
 "average-case" searches we should see a performance difference.
-
-The `EarlyExit` class demonstrates how you can measure this performance
-difference by building large arrays and repeatedly timing average-case
-searches.
-
-1. Open `EarlyExit.java` and compile it.
-
-1. Run this program and observe its output.
-
-1. Interact with this code and make sure that you understand everything that it does and how you might apply it for your own purposes.
 
 
 ## Characterizing time complexity
@@ -184,15 +133,6 @@ growth that we will see in this course include *log N*, *N*, *N log N*, *N^2*,
 *N^3*, *2^N*, and *N!*. For the purposes of this lab, however, we will
 restrict ourselves to talking about algorithms with time complexity
 proportional to a *polynomial*. (*f(N) = N^k* for *k* > 0)
-
-
-The `TimeComplexity` class demonstrates how you can generate data that will allow you to characterize polynomial time complexity.
-
-1. Open `TimeComplexity.java` and compile it.
-
-1. Run this program and observe its output.
-
-1. Interact with this code and make sure that you understand everything that it does and how you might apply it for your own purposes.
 
 
 ## Submission
