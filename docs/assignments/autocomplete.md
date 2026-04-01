@@ -166,7 +166,7 @@ class Autocomplete:
 
     def all_matches(self, prefix: str) -> list:
         '''
-        In O(logN) time, returns a list of all terms that start with the given
+        In O(NlogN) time, returns a list of all terms that start with the given
         prefix, in descending order of weight, or an empty list if no such
         terms exist. Note, returned terms are tuples containing both a string
         and a numeric weight.
