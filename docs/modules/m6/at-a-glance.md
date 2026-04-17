@@ -24,5 +24,6 @@ for success.
 
 - Illustrate the effect of add and remove operations on hash tables.
 - Apply maps and hash tables to solve problems.
+- Understand when to use maps and hash tabbbles in Python.
 - Apply graphs to solve problems.
 

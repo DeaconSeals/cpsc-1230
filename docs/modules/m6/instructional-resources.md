@@ -1,13 +1,10 @@
 # Lecture Notes
 
-- [Hash Tables](notes/22-Hash-Tables.pdf)
-- [Graphs](notes/23-Graphs.pdf)
-- [Minimum Spanning Trees](notes/24-MST-Algorithms.pdf)
-- [Least Cost Paths](notes/25-LCP-Algorithms.pdf)
+- Available in Canvas in Files>Seals-Lecture-Notes
 
-# Supplemental Readings
+# Related Python Documentation
 
-- Chapters 15 and 16 of Bailey, D. A. (2007). [*Java structures: Data structures in Java for the principled programmer ("Root 7" Edition)*](http://dept.cs.williams.edu/~bailey/JavaStructures/Book_files/JavaStructures.pdf). Williams, MA: Williams University.
-
-- Chapters 9 and 11 of Shaffer, C. A. (2013). [*A practical introduction to data structures and algorithm analysis (Edition 3.2)*](http://people.cs.vt.edu/~shaffer/Book/JAVA3elatest.pdf). Upper Saddle River, NJ: Prentice Hall.
-
+- [Python Data Model: __hash__](https://docs.python.org/3/reference/datamodel.html#object.__hash__)
+- [Built-in function: hash](https://docs.python.org/3/library/functions.html#hash)
+- [Built-in types: dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict)
+- [Built-in types: set](https://docs.python.org/3/library/stdtypes.html#set-types-set-frozenset)

@@ -16,43 +16,45 @@ the shortest routes from one city to another.
 
 # Hash Tables
 
-> [*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d5fa72bb-f765-4869-99e5-acc0014ea5da)
+> [*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=adba8fbe-1f58-48ab-91ae-b42f0101a9bb)
 
-> [*Video: Hash functions and collisions*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ecb63a1-3f7e-410e-bc4a-acc0014ea688)
+> [*Video: Hash functions and collisions*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=93c73875-f601-4415-9624-b42f0101aa64)
 
-> [*Video: Closed addressing*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=508b5e8d-6c56-4d61-a2f4-acc0014ea654)
+> [*Video: Closed addressing*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=43e988ea-d1be-4ca7-bcd9-b42f0101c2e7)
 
-> [*Video: Open addressing*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=940d551a-a560-45a8-85a9-acc0014ea607)
+> [*Video: Open addressing*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=85140eb0-0dfd-4c6c-a278-b42f0101d736)
 
-> [*Vide: Open addressing add, remove, load factor*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9af1469e-2a50-415d-a899-acc0014eb131)
+> [*Vide: Open addressing add, remove, load factor*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa6696b6-caac-44c3-bba0-b42f0101fb47)
 
-> [*Video: Uniform hashing assumption*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a5e9d89f-6250-4d89-857e-acc0014eba13)
+> [*Video: Uniform hashing assumption*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0ca9470-4c3e-4177-96ef-b42f01020c29)
 
-> [*Video: Performance analysis*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=13965e09-e75e-4e64-b5f3-acc0014ebd8e)
+> [*Video: Performance analysis*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=74ff865b-b604-498b-96a6-b42f01018ac4)
 
-> [*Video: Hashcodes*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3d81dd36-569e-4227-8f26-acc0014ec217)
+>[*Video: Hashing in Python*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50a5d260-d15c-4047-8c0f-b42f01018b22)
+
+> [**Optional** *Video: Hashcodes in Java*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4ebb7e71-cbcc-4c7b-b4f0-b42f01018a98)
 
 
 ---
 
 # Graphs
 
-> [*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6d374f90-a7f5-449a-a367-acc0014ecb16)
+> [*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cb7b781-2eca-40c4-b5a6-b42f01018af0)
 
-> [*Video: Adjacency, graph representations*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=933aa23d-c5ae-4764-b078-acc0014ed0fd)
+> [*Video: Adjacency, graph representations*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5040cf9-876c-4f90-a8fd-b42f01018ff0)
 
-> [*Video: Terminology*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7b6f558f-5cf1-41e6-95d8-acc0014ed285)
+> [*Video: Terminology*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04e5b938-b5a8-4b0d-aa29-b42f010191b5)
 
-> [*Video: DFS, BFS*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=030365cc-c1dd-4890-b063-acc0014edffc)
+> **Note**: this video contains pseudo-code that resembles Java/C, but the algorithmic approach shown is identical to Python. [*Video: DFS, BFS*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dec5e039-ab18-426a-9cfb-b42f0101923f)
 
-> [*Video: Minimum Spanning Trees (MST) - Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=084f8566-9cd9-445b-b291-acc0014ee429)
+> [*Video: Minimum Spanning Trees (MST) - Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b9baf9c8-f873-489d-ab2c-b42f0101a310)
 
-> [*Video: MST - greedy heuristic*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=41ad56b9-8c18-4ed6-8dcd-acc0014eee46)
+> [*Video: MST - greedy heuristic*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fabcfc7c-0824-4f16-8acc-b42f0101a423)
 
-> [*Video: MST - Prim's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=130ad011-a853-4fdd-a53d-acc0014eee01)
+> [*Video: MST - Prim's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=386a4f25-001e-4a6f-99d4-b42f0101a53f)
 
-> [*Video: MST - Kruskal's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=50774bd1-947a-4337-810f-acc0014ef7a3)
+> [*Video: MST - Kruskal's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7b96354e-1766-4855-8c5a-b42f0101a7ae)
 
-> [*Video: Least-Cost Paths - Dijkstra's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eeeab876-50be-426d-be3c-acc0014efc41)
+> [*Video: Least-Cost Paths - Dijkstra's algorithm*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=275eae71-7fde-4ec9-8426-b42f0101a815)
 
 
