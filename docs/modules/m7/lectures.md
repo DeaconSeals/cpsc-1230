@@ -10,20 +10,20 @@ In this module we discuss a data structure that is designed to efficiently manag
 
 ### Introduction
 
-[*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88d33488-c767-4e68-ad3d-acc0014f7eed)
+[*Video: Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d92d79dc-af96-4547-aa8a-b43600e63f55)
 
 
 ### Fast find
 
-[*Video: Fast Find*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a63f66c4-caea-4b0b-a4d8-acc0014f7f62)
+[*Video: Fast Find*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=724bf1ba-01a0-4db4-bf4c-b43600e63f86)
 
 
 ### Fast union
 
-[*Video: Fast Union*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=101fe1d4-2c2f-49bf-9ae1-acc0014f7f2f)
+[*Video: Fast Union*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1e87eca5-66ce-4163-b13e-b43600e63fbc)
 
 
 ### Path compression
 
-[*Video: Path Compression*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a008be01-be09-4d88-ba2f-acc0014f7fa6)
+[*Video: Path Compression*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8443d666-62fc-45c6-a0c7-b43600e69ac9)
 
