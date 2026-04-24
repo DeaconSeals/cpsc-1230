@@ -1,7 +1,7 @@
 # Lab Test 3
 
 This lab test is designed to test your programming **fluency** by having you
-develop the solution to small, highly focused problems in Java. You must
+develop the solution to small, highly focused problems in Python. You must
 complete the bodies of the indicated methods in the starter code provided in
 Vocareum.
 
@@ -30,9 +30,9 @@ Be sure to observe the following rules as you take the lab test.
   will be held responsible for observing the [Academic Honesty
   Code](http://www.auburn.edu/academic/provost/academic-honesty/_assets/pdf/academic-honesty-code-20201028.pdf).
 
-- You are allowed to reference the Java API at the following link:
-  [https://docs.oracle.com/en/java/javase/15/docs/api/index.html](https://docs.oracle.com/en/java/javase/15/docs/api/index.html).
-  Be sure to load the API in a separate browser tab **before** you begin the lab
+- You are allowed to reference the Python documentation at the following link:
+  [https://docs.python.org/3/](https://docs.python.org/3/)
+  Be sure to load the documentation in a separate browser tab **before** you begin the lab
   test. You are not allowed to reference any other material during the lab test.
 
 - You are **strongly encouraged** to take the lab test completely within the
