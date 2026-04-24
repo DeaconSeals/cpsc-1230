@@ -14,9 +14,8 @@ Each module in this course builds upon previous concepts and gets
 progressively more difficult. It is important to be proactive and to begin
 your work early in the module to allow the material to sink in. If you don't
 understand something or have a question, it is crucial that you reach out for
-help sooner rather than later. Ask questions on Piazza and participate in
-discussions. Engaging with the class and being proactive are good strategies
-for success.
+help sooner rather than later. Engaging with the class and being proactive are
+good strategies for success.
 
 
 
@@ -24,6 +23,6 @@ for success.
 
 - Illustrate the effect of add and remove operations on hash tables.
 - Apply maps and hash tables to solve problems.
-- Understand when to use maps and hash tabbbles in Python.
+- Understand when to use maps and hash tables in Python.
 - Apply graphs to solve problems.
 
