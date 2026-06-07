@@ -13,28 +13,28 @@ We begin this module by introducing a collection that embodies the notion of "or
 
 Lists keep things in order, but what exactly does "order" mean? Since it could mean a variety of things depending on the application, there has to be a variety of List collections.
 
->[*Video: List Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=03ea0037-e275-4e2e-96ed-b42100f92a68)
+>[*Video: List Introduction*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7571d9e8-c688-4d51-92d8-b462014a957e)
 
 
 ### Array-based implementation
 
 Now that we've discussed the abstract behavior of different list types, we need to understand how we can implement this behavior using a concrete data structure. These lecture materials introduce an array-based implementation of a List collection.
 
->[*Video: Array-based List Implementation*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a75a3928-5cb1-45a9-a4a8-b42100f8ff99)
+>[*Video: Array-based List Implementation*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d93e02bf-3fbf-42a1-809a-b462014a953d)
 
 
 ### Node-based implementation
 
 Dynamically linked nodes are the standard alternative to arrays. These lecture materials discuss using singly-linked and doubly-linked nodes to implement a List collection.
 
->[*Video: Node-based List Implementation*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1584d759-8e1a-46c3-9007-b42100f90015)
+>[*Video: Node-based List Implementation*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=95fe62ed-0a9c-46af-ae34-b462014a95e3)
 
 
 ### Performance analysis
 
 How do these two alternative data structures perform with respect to time efficiency of the major List operations? These lecture materials provide an overview comparison and analysis.
 
->[*Video: Performance Analysis*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa588a0c-43f6-4875-a76f-b42100f8ffc9)
+>[*Video: Performance Analysis*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1ff66a5-cf78-40b2-bd16-b462014a95b0)
 
 
 
