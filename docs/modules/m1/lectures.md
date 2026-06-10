@@ -1,4 +1,4 @@
-{::options auto_ids="false" /}
+{::options auto_ids="false"}
 # Problem-Solving, Patterns, and Search
 
 The following video sets the stage for this module by introducing problem
