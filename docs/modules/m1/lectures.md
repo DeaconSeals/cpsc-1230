@@ -86,3 +86,5 @@ for the sake or sorting and other common operations.
 > [*Video: Total Order*](https://auburn.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7a75f65f-0252-4016-bc41-b40e01322d76)
 
 
+
+{::options auto_ids="false" /}
