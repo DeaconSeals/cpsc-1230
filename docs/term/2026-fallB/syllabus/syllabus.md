@@ -4,6 +4,7 @@
 # CPSC 1230 Data Structures <br> Fall B 2026 Course Syllabus
 
 *Published: August 16, 2026*
+*Updated 10/28/26 - Change TA office hours*
 
 ---
 
@@ -158,7 +159,7 @@ Auburn University
 345 West Magnolia Ave  
 Auburn, AL 36849 
 `wzz0050@auburn.edu`
-**Office Hours:** Monday 2:30pm to 4:30pm via Zoom [https://auburn.zoom.us/j/4572485899](https://auburn.zoom.us/j/4572485899)
+**Office Hours:** Monday 2 pm to 4 pm via Zoom [https://auburn.zoom.us/j/4572485899](https://auburn.zoom.us/j/4572485899)
 
 
 ---
